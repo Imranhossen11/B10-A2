@@ -2,10 +2,12 @@
 
 * {
     font-family: "Inter", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 body {
-    background-color: rgb(28, 26, 26);
+    background-color: rgb(34, 34, 34);
 }
 
 
@@ -61,7 +63,7 @@ body {
     align-items: center;
     font-size: 18px;
     font-weight: 600px;
-    margin-left: -6px;
+    margin-left: -15px;
 
 
 }
@@ -109,10 +111,9 @@ body {
     margin-left: 150px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
 
 .shapestyle {
-    font-family: "Playwrite AT", cursive;
+    font-family: 'Miama', sans-serif;
     font-weight: 200px;
     font-size: 38px;
 }
@@ -186,8 +187,8 @@ body {
     font-size: 20px;
     font-weight: 900px;
     color: rgb(255, 255, 255);
-    padding-left: 15px;
     margin-top: 30px;
+    margin-left: -15px;
 
 }
 
@@ -195,8 +196,8 @@ body {
     font-size: 15px;
     font-weight: 400px;
     color: rgba(239, 237, 232, 0.65);
-    padding-left: 30px;
     margin-top: -20px;
+    padding-left: 30px;
 
 }
 
@@ -204,13 +205,15 @@ body {
     font-size: 15px;
     font-weight: 400px;
     color: rgba(239, 237, 232, 0.65);
-    padding-left: 15px;
+    margin-left: -15px;
     margin-top: -15px;
 
 }
 
 .s1-subdiv-2flex {
+    display: grid;
     display: flex;
+    gap: 0px;
 }
 
 .minidivbtn {
@@ -221,7 +224,7 @@ body {
     border: 1px solid rgb(230, 83, 60);
     border-radius: 50%;
     margin-top: 35px;
-    margin-left: 15px;
+    margin-left: 1px;
 
 }
 
@@ -296,15 +299,31 @@ body {
 .s2Main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 170px;
+    gap: 190px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
+   
 
 }
 
 .s2-subdiv {
-    text-align: center;   
+    text-align: center;
+
+}
+.s2-subdiv1 {
+    text-align: center;
+    margin-left: -180px;
+
+}
+.s2-subdiv2 {
+    text-align: center;
+    margin-left: -170px;
+
+}
+.s2-subdiv3 {
+    text-align: center;
+    margin-left: -180px;
 
 }
 
@@ -314,27 +333,481 @@ body {
     width: 250px;
     height: 250px;
 }
-.s2-divsubtitle{
-   font-size: 18px;
-   font-weight: 600px;
-   color:rgb(255, 255, 255) ;
+
+.s2-divsubtitle {
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
 }
-.s2-divsubdescripation{
+
+.s2-divsubdescripation {
     font-size: 18px;
     font-weight: 400px;
-    color:rgba(255, 255, 255, 0.5) ;
+    color: rgba(255, 255, 255, 0.5);
 }
-@media screen and (max-width:576px){
-    .s2Main{
+
+
+
+@media screen and (max-width:576px) {
+    .s2Main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 180px;
     }
-    .S2-subdiv-img{
+
+    .S2-subdiv-img {
         margin-top: -150px;
     }
-    .s2-subdiv{
-        
+
+}
+
+
+
+/* 3rd section */
+
+.s3-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 150px;
+    margin-right: 1050px;
+    border-radius: 20px;
+    min-height: 392px;
+    width: 1460px;
+    margin-top: 80px;
+
+}
+
+.s3-img {
+    width: 366px;
+    height: 312px;
+    border-radius: 10px;
+    margin-right: 35px;
+    margin-top: 35px;
+    
+
+}
+
+.s3-subdiv {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.s3-title {
+    font-size: 40px;
+    font-weight: 900px;
+    color: rgb(255, 255, 255);
+}
+
+.s3-descripation {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -20px;
+
+}
+
+.s3-btn {
+    width: 224px;
+    height: 54px;
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+
+.section-3 {}
+
+@media screen and (max-width:576px) {
+    .s3-main {
+        display: grid;
+        margin-left: 0px;
+        width: 100%;
     }
 
+    .s3-img {
+        margin-left: 45px;
+        width: 326px;
+        height: 312px;
+    }
+
+    .s3-btn {
+        margin-left: 39px;
+    }
+}
+
+
+/* 4th section */
+
+.Section4maindiv {
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(3, 2fr);
+    margin-left: 140px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.s4heading {
+    font-weight: 900px;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.s4descri {
+    font-size: 14px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Section4maindiv1 {
+    margin-left: 140px;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+.s4imagediv1-2 {
+    color: rgba(255, 0, 0, 0.3);
+}
+
+.s4images1 {
+    width: 423px;
+    height: 318px;
+
+}
+
+.s4image1-des {
+    color: red;
+    margin-top: -150px;
+}
+
+.s4images2 {
+    width: 739px;
+    height: 318px;
+    margin-left: -340px;
+
+}
+
+.s4images3 {
+    width: 410px;
+    height: 318px;
+    margin-left: -80px;
+
+}
+
+.s4images4 {
+    width: 680px;
+    height: 318px;
+    margin-top: -78px;
+
+}
+
+.s4images5 {
+    width: 488px;
+    height: 318px;
+    margin-left: -60px;
+    margin-top: -78px;
+
+}
+
+.s4images6 {
+    width: 500px;
+    height: 318px;
+    margin-left: -170px;
+    margin-top: -78px;
+
+}
+
+
+
+
+
+
+
+
+/* 5th section */
+.s5main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 150px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    min-height: 589px;
+    margin-left: -38px;
+    padding-right: 80px;
+}
+
+.s5main-1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 800px;
+    margin-left: 8%;
+}
+
+.Bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    margin-top: 100px;
+    margin-left:50px;
+}
+.bmi-descris{
+    margin-left:50px;
+}
+
+.table-1-tr {
+    color: rgb(255, 255, 255);
+}
+
+.s5titileandpara {
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.BMI-CAL-2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 8%;
+    font-size: 1.3rem;
+
+}
+
+.Height-cm {
+
+    height: 60px;
+    width: 382.5px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1.3rem;
+    padding: 30px;
+    color:rgba(255, 255, 255, 0.6) ;
+}
+.Height-cm-1{
+    height: 60px;
+    width: 770.5px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1.3rem;
+    padding: 12px;
+    color:rgba(255, 255, 255, 0.6) ;
+}
+.Height-cm-2{
+    height: 60px;
+    width: 382.5px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1.3rem;
+    padding: 12px;
+    color:rgba(255, 255, 255, 0.6) ;
+    margin-left: -400px;
+}
+
+.s5titles-1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: 900px;
+
+}
+
+.s5descripations {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400px;
+}
+
+.bmi-calcolate {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 12px;
+    margin-left:40px;
+
+
+}
+
+.table-1,
+th,
+td,
+tr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 550px;
+}
+
+.table-s5 {
+    border: 12px solid white;
+}
+
+
+.s5-btns{
+    width: 224px;
+    height: 54px;
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+/* 6th section */
+.s6-main {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-left: 170px;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 1460px;
+    min-height: 760px;
+    margin-top: 100px;
+
+
+}
+
+.s6images {
+    width: 450px;
+    height: 330px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.2);
+
+}
+
+.s-6div1 {
+    margin-left: 140px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.s6titles-1 {
+    font-size: 5rem;
+    font-weight: 900px;
+    color: rgb(255, 255, 255);
+}
+
+.s6descri-1s {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400px;
+    margin-top: -50px;
+}
+
+.jeromebell {
+    margin-top: -100px;
+    margin-left: 50px;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+}
+
+.trainers {
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: 1rem;
+    color: rgba(226, 224, 224, 0.479);
+}
+
+.s6divs1 {
+    margin-left: -50px;
+}
+
+.s6divs2 {
+    margin-left: -50px;
+}
+
+.s6divs3 {
+    margin-top: -65px;
+}
+
+.s6divs4 {
+    margin-left: -50px;
+    margin-top: -65px;
+}
+
+.s6divs5 {
+    margin-left: -50px;
+    margin-top: -65px;
+}
+
+
+
+/* footer Done */
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+    width: 100%;
+    min-height: 589px;
+    margin-left: -20px;
+    padding-right: 40px;
+
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+    width: 100%;
+    height: 489px;
+    padding-right: -200px;
+
+}
+
+.titleand-des {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.footertitle {
+    font-size: 5rem;
+    font-weight: 800px;
+    color: rgb(230, 83, 60);
+}
+
+.footer-descripation {
+    font-size: 1.2rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Service-1 {
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Get-st {
+    color: rgb(255, 255, 255);
+}
+
+.hr-1 {
+    margin-left: 250px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1500px;
+    margin-top: -30px;
+
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    font-size: 1.7rem;
+    font-weight: 400px;
 }
