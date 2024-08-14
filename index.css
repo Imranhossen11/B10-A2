@@ -92,6 +92,13 @@ body {
     }
 
 }
+@media screen and (max-width:320px){
+    .hambarger {
+        display: block;
+        margin-left: 40px;
+    }
+}
+
 
 /* 1st section */
 
@@ -261,7 +268,8 @@ body {
         font-size: .7rem;
 
     }
-    .btn2{
+
+    .btn2 {
         margin-left: 10px;
     }
 
@@ -274,13 +282,33 @@ body {
     }
 
     .s1-img-subdiv1 {
-        margin-left: 140px;
+        margin-left: 150px;
 
 
     }
 
     .s1-img-subdiv2 {
-        margin-left: -25px;
+        margin-left: -10px;
+    }
+
+}
+@media screen and (max-width:320px){
+    .section1-img {
+        margin-top: 10px;
+        margin-left: -50px;
+        width: 349px;
+        height: 500px;
+
+    }
+
+    .s1-img-subdiv1 {
+        margin-left: 100px;
+
+
+    }
+
+    .s1-img-subdiv2 {
+        margin-left: 20px;
     }
 
 }
@@ -445,21 +473,21 @@ body {
     .s3-main {
         display: grid;
         margin-left: 0px;
-        width: 105%;
+        width: 90%;
         height: 805px;
-        margin-left: -15px;
+        margin-left: 15px;
     }
 
     .s3-img {
         margin-left: 45px;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         margin-left: 18px;
         margin-top: 55px;
     }
 
     .s3-btn {
-        margin-left: 9px;
+        margin-left: -9px;
         margin-top: 30px;
     }
 
@@ -472,6 +500,26 @@ body {
     }
 }
 
+@media screen and (max-width:320px) {
+    .s3-main {
+        display: grid;
+        margin-left: 0px;
+        width: 120%;
+        height: 805px;
+        margin-left: -25px;
+    }
+    .s3-img {
+        margin-left: 45px;
+        width: 220px;
+        height: 220px;
+        margin-left: 25px;
+        margin-top: 55px;
+    }
+    .s3-btn {
+        margin-left: -19px;
+        margin-top: 30px;
+    }
+}
 
 /* 4th section */
 
@@ -617,7 +665,7 @@ body {
     }
 
     .Section4maindiv {
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .s4images1 {
@@ -664,18 +712,55 @@ body {
 
     .s4image1-des4 {
         margin-top: 70px;
-        margin-left:10px;
+        margin-left: 10px;
 
     }
-    .s4image1-des1{
+
+    .s4image1-des1 {
         margin-top: 5px;
     }
 }
 
+@media screen and (max-width:320px) {
+    .s4images1 {
+        width: 183px;
+        height: 118px;
+        margin-left: -30px;
+    }
 
+    .s4images21 {
+        width: 143px;
+        height: 118px;
+        margin-left: -38px;
+
+    }
+
+    .s4images41 {
+        width: 143px;
+        height: 118px;
+        margin-left: -30px;
+    }
+
+    .s4images51 {
+        width: 143px;
+        height: 118px;
+        margin-left: -38px;
+    }
+
+    .s4images31,
+    .s4images61 {
+        display: none;
+    }
+    .s4image1-des3{
+        margin-top: 70px;
+    }
+    .s4image1-des4{
+        margin-top: 55px;
+    }
+}
 
 /* 5th section */
-.s5main {
+.s5main-12 {
     display: flex;
     margin-left: 140px;
     margin-right: 150px;
@@ -807,10 +892,9 @@ td {
 
 @media screen and (max-width:576px) {
 
-    .s5main {
-        display:inline;
-        width: 95%;
-        
+    .s5main-12 {
+        display: inline;
+
     }
 
     .Height-cm {
@@ -855,12 +939,50 @@ td {
     }
 
     .tr-1 {
-        margin-left: -50px;
-        width: 95%;
+        margin-left: -30px;
+        width: 100%;
     }
 }
 
+@media screen and (max-width:320px) {
+    .s5main-12{
 
+    }
+    .s5titles-1 {
+        font-size: 1.5rem;
+    }
+
+    .s5descripations {
+        font-size: 1rem;
+    }
+
+    .Bmi-title {
+        font-size: 1.4rem;
+    }
+
+    .tr-1 {
+        width: 100%;
+    }
+
+    .Height-cm {
+        height: 60px;
+        width: 142.5px;
+        margin-left: -90px;
+    }
+
+    .Height-cm-1 {
+        height: 60px;
+        width: 302.5px;
+        margin-left: -90px;
+    }
+
+    .Height-cm-2 {
+        height: 60px;
+        width: 142.5px;
+        margin-left: -174px;
+    }
+
+}
 
 
 
@@ -903,8 +1025,9 @@ td {
     .extramain {
         display: inline;
     }
-    .extratable-1{
-        width: 95%;
+
+    .extratable-1 {
+        width: 96%;
         height: 240px;
         margin-left: -10px;
     }
@@ -922,7 +1045,6 @@ td {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     width: 1460px;
-    min-height: 760px;
     margin-top: 100px;
 
 
@@ -1016,8 +1138,8 @@ td {
     .s6-main {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
-        width: 118%;
-        min-height: 1360px;
+        width: 100%;
+        min-height: 1450px;
         margin-left: -20px;
     }
 
@@ -1039,9 +1161,9 @@ td {
     }
 
     .s6images {
-        width: 70%;
-        height: 250px;
-        margin-left: -0px;
+        width: 80%;
+        height: 280px;
+        margin-left: 15px;
     }
 
     .s6divs1 {
@@ -1054,23 +1176,51 @@ td {
     .s6divs3,
     .s6divs2 {
         width: 95%;
-        height: 250px;
+        height: 280px;
         margin-left: 10px;
         margin-top: 20px;
     }
-    .jeromebell{
-        margin-left: 5px;
+
+    .jeromebell {
+        margin-left: 25px;
     }
 
 }
 
+@media screen and (max-width:320px) {
+    .s6-main {
+        width: 115%;
+    }
 
+    .s6divs3,
+    .s6divs2 {
+        width: 95%;
+        height: 250px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 
+    .s6images {
+        width: 60%;
+        height: 250px;
+        margin-left: 15px;
+    }
+
+    .jeromebell {
+        font-size: 1rem;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:375px) {
+    .s6-main {
+        width: 109%;
+    }
+}
 
 
 
 /* footer Done */
-footer {
+.footer-1 {
     background: rgba(255, 255, 255, 0.1);
     margin-top: 100px;
     width: 100%;
@@ -1133,7 +1283,6 @@ footer {
     font-size: 1.7rem;
     font-weight: 400px;
 }
-
 @media screen and (max-width:576px) {
 
     .footer-main {
@@ -1154,3 +1303,16 @@ footer {
         margin-left: -20px;
     }
 }
+@media screen and (max-width:320px) {
+    .footer-1 {
+        width: 160%;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .footer-1 {
+        width: 110%;
+    }
+
+}
+
