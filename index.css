@@ -1299,7 +1299,7 @@ td {
     }
 
     .hr-1 {
-        width: 335px;
+        width: 440px;
         margin-left: -20px;
     }
 }
@@ -1311,7 +1311,11 @@ td {
 }
 @media screen and (max-width:375px) {
     .footer-1 {
-        width: 110%;
+        width: 100%;
+    }
+    .hr-1 {
+        width: 340px;
+        margin-left: -20px;
     }
 
 }
