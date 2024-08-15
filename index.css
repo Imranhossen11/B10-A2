@@ -92,20 +92,6 @@ body {
     }
 
 }
-@media screen and (max-width:375px){
-    .hambarger {
-        display: block;
-        margin-left: 100px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .hambarger {
-        display: block;
-        margin-left: 40px;
-    }
-}
-
 
 /* 1st section */
 
@@ -300,50 +286,6 @@ body {
 
 }
 
-@media screen and (max-width:375px){
-    .section1-img {
-        margin-top: 10px;
-        margin-left: -30px;
-        width: 349px;
-        height: 500px;
-
-    }
-
-    .s1-img-subdiv1 {
-        margin-left: 100px;
-
-
-    }
-
-    .s1-img-subdiv2 {
-        margin-left: 20px;
-    }
-
-
-}
-
-@media screen and (max-width:320px) {
-    .section1-img {
-        margin-top: 10px;
-        margin-left: -50px;
-        width: 349px;
-        height: 500px;
-
-    }
-
-    .s1-img-subdiv1 {
-        margin-left: 100px;
-
-
-    }
-
-    .s1-img-subdiv2 {
-        margin-left: 20px;
-    }
-
-}
-
-
 
 /* 2nd section */
 
@@ -527,40 +469,6 @@ body {
 
     .s3-title {
         margin-left: -39px;
-    }
-}
-
-@media screen and (max-width:375px){
-    .s3-main {
-        display: grid;
-        margin-left: 0px;
-        width: 110%;
-        height: 805px;
-        margin-left: -15px;
-    }
-
-}
-
-@media screen and (max-width:320px) {
-    .s3-main {
-        display: grid;
-        margin-left: 0px;
-        width: 120%;
-        height: 805px;
-        margin-left: -25px;
-    }
-
-    .s3-img {
-        margin-left: 45px;
-        width: 220px;
-        height: 220px;
-        margin-left: 25px;
-        margin-top: 55px;
-    }
-
-    .s3-btn {
-        margin-left: -19px;
-        margin-top: 30px;
     }
 }
 
@@ -764,87 +672,6 @@ body {
     }
 }
 
-@media screen and (max-width:375px){
-    .s4images1 {
-        width: 183px;
-        height: 118px;
-        margin-left: -30px;
-    }
-
-    .s4images21 {
-        width: 173px;
-        height: 118px;
-        margin-left: -38px;
-
-    }
-
-    .s4images41 {
-        width: 143px;
-        height: 118px;
-        margin-left: -30px;
-    }
-
-    .s4images51 {
-        width: 173px;
-        height: 118px;
-        margin-left: -38px;
-    }
-
-    .s4images31,
-    .s4images61 {
-        display: none;
-    }
-
-    .s4image1-des3 {
-        margin-top: 70px;
-    }
-
-    .s4image1-des4 {
-        margin-top: 55px;
-    }
-}
-
-
-@media screen and (max-width:320px) {
-    .s4images1 {
-        width: 183px;
-        height: 118px;
-        margin-left: -30px;
-    }
-
-    .s4images21 {
-        width: 143px;
-        height: 118px;
-        margin-left: -38px;
-
-    }
-
-    .s4images41 {
-        width: 143px;
-        height: 118px;
-        margin-left: -30px;
-    }
-
-    .s4images51 {
-        width: 143px;
-        height: 118px;
-        margin-left: -38px;
-    }
-
-    .s4images31,
-    .s4images61 {
-        display: none;
-    }
-
-    .s4image1-des3 {
-        margin-top: 70px;
-    }
-
-    .s4image1-des4 {
-        margin-top: 55px;
-    }
-}
-
 /* 5th section */
 .s5main-12 {
     display: flex;
@@ -983,14 +810,18 @@ td {
         width: 100%;
         min-height:1220px;
         margin-top: 20px;
+        margin-left: -40px;
+        margin-right:0px;
+        padding-left: 0px;
+
 
     }
     .s5main-1{
-        margin-left: 80px;
+        margin-left: 70px;
 
     }
     .BMI-CAL-2{
-        margin-left: 80px;
+        margin-left: 70px;
 
     }
 
@@ -1040,116 +871,6 @@ td {
         width: 100%;
     }
 }
-
-@media screen and (max-width:375px) {
-    .s5main-12 {
-        display: inline-block;
-        width: 100%;
-        min-height:1220px;
-        margin-top: 20px;
-
-    }
-
-    .s5main-1{
-        margin-left: 90px;
-
-    }
-    .BMI-CAL-2{
-        margin-left: 100px;
-
-    }
-
-    .s5titles-1 {
-        font-size: 1.5rem;
-    }
-
-    .s5descripations {
-        font-size: 1rem;
-    }
-
-    .Bmi-title {
-        font-size: 1.4rem;
-    }
-
-    .tr-1 {
-        width: 100%;
-    }
-
-    .Height-cm {
-        height: 60px;
-        width: 142.5px;
-        margin-left: -105px;
-    }
-
-    .Height-cm-1 {
-        height: 60px;
-        width: 290px;
-        margin-left: -105px;
-    }
-
-    .Height-cm-2 {
-        height: 60px;
-        width: 142.5px;
-        margin-left: -164px;
-    }
-
-}
-
-@media screen and (max-width:320px) {
-    .s5main-12 {
-        display: inline-block;
-        width: 100%;
-        min-height:1220px;
-        margin-top: 20px;
-
-    }
-
-    .s5main-1{
-        margin-left: 70px;
-
-    }
-    .BMI-CAL-2{
-        margin-left: 70px;
-
-    }
-
-    .s5titles-1 {
-        font-size: 1.5rem;
-    }
-
-    .s5descripations {
-        font-size: 1rem;
-    }
-
-    .Bmi-title {
-        font-size: 1.4rem;
-    }
-
-    .tr-1 {
-        width: 100%;
-    }
-
-    .Height-cm {
-        height: 60px;
-        width: 142.5px;
-        margin-left: -105px;
-    }
-
-    .Height-cm-1 {
-        height: 60px;
-        width: 290px;
-        margin-left: -105px;
-    }
-
-    .Height-cm-2 {
-        height: 60px;
-        width: 142.5px;
-        margin-left: -164px;
-    }
-
-}
-
-
 
 /* extra-section */
 .extramain {
@@ -1353,54 +1074,6 @@ td {
     }
 
 }
-@media screen and (max-width:375px) {
-    .s6-main {
-        width: 105%;
-    }
-    .s6divs3,
-    .s6divs2 {
-        width: 95%;
-        height: 250px;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .s6images {
-        width: 70%;
-        height: 250px;
-        margin-left: 15px;
-    }
-}
-
-
-@media screen and (max-width:320px) {
-    .s6-main {
-        width: 115%;
-    }
-
-    .s6divs3,
-    .s6divs2 {
-        width: 95%;
-        height: 250px;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .s6images {
-        width: 60%;
-        height: 250px;
-        margin-left: 15px;
-    }
-
-    .jeromebell {
-        font-size: 1rem;
-        margin-left: 50px;
-    }
-}
-
-
-
-
 
 /* footer Done */
 .footer-1 {
@@ -1471,6 +1144,7 @@ td {
 
     .footer-main {
         display: inline;
+        width: 10%;
 
     }
 
@@ -1485,28 +1159,5 @@ td {
     .hr-1 {
         width: 440px;
         margin-left: -20px;
-    }
-}
-
-
-
-@media screen and (max-width:375px) {
-    .footer-1 {
-        width: 100%;
-    }
-
-    .hr-1 {
-        width: 350px;
-        margin-left: 20px;
-    }
-
-}
-@media screen and (max-width:320px) {
-    .footer-1 {
-        width: 109%;
-    }
-
-    .hr-1 {
-        width: 280px;
     }
 }
