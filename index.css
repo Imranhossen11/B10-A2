@@ -77,6 +77,10 @@ body {
 
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .navsubdiv-2 {
 
         display: none;
@@ -234,11 +238,15 @@ body {
 }
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .Section1maindiv {
         display: inline;
     }
-
+    
     .pribtn {
         display: flex;
         font-size: 1rem;
@@ -268,7 +276,8 @@ body {
 
     .section1-img {
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: -25px;
+        margin-right: -150px;
         width: 349px;
         height: 500px;
 
@@ -281,7 +290,7 @@ body {
     }
 
     .s1-img-subdiv2 {
-        margin-left: -30px;
+        margin-left: 0px;
     }
 
 }
@@ -365,6 +374,10 @@ body {
 
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .s2Main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -442,6 +455,10 @@ body {
 }
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .s3-main {
         display: grid;
         width: 350px;
@@ -605,6 +622,10 @@ body {
 
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     .Section4maindiv {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -627,26 +648,26 @@ body {
     .s4images1 {
         width: 213px;
         height: 118px;
-        margin-left:-30px;
+        margin-left:-20px;
     }
 
     .s4images21 {
         width: 203px;
         height: 118px;
-        margin-left:-30px;
+        margin-left:-55px;
 
     }
 
     .s4images41 {
         width: 213px;
         height: 118px;
-        margin-left:-30px;
+        margin-left:-20px;
     }
 
     .s4images51 {
         width: 203px;
         height: 118px;
-        margin-left: -30px;
+        margin-left: -55px;
     }
 
     .s4images31,
@@ -809,6 +830,10 @@ td {
 }
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .s5main-12 {
         display: inline-block;
@@ -816,7 +841,7 @@ td {
         min-height:1220px;
         margin-top: 20px;
         margin-left: -40px;
-        margin-right:0px;
+        margin-right:-150px;
         padding-left: 0px;
 
 
@@ -912,6 +937,10 @@ td {
 
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .extramain {
         display: inline;
@@ -1033,6 +1062,10 @@ td {
 /* section6 */
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .s6-main {
         display: grid;
@@ -1160,6 +1193,10 @@ td {
 }
 
 @media screen and (max-width:576px) {
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
     .footer-main {
         display: inline;
@@ -1167,6 +1204,7 @@ td {
     }
     .footer-1{
         width: 385px;
+        margin-right: -150px;
     }
 
     .footertitle {
