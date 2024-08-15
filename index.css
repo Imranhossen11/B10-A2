@@ -2,8 +2,8 @@
 
 * {
     font-family: "Inter", sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 body {
@@ -84,13 +84,13 @@ body {
 
     .hambarger {
         display: block;
-        margin-left: 180px;
+        margin-left:280px;
     }
 
     .navsubdiv-1 {
         margin-left: -180px
     }
-
+    
 }
 
 /* 1st section */
@@ -268,20 +268,20 @@ body {
 
     .section1-img {
         margin-top: 10px;
-        margin-left: -10px;
+        margin-left: 100px;
         width: 349px;
         height: 500px;
 
     }
 
     .s1-img-subdiv1 {
-        margin-left: 150px;
+        margin-left: 180px;
 
 
     }
 
     .s1-img-subdiv2 {
-        margin-left: -10px;
+        margin-left: -50px;
     }
 
 }
@@ -445,35 +445,35 @@ body {
     .s3-main {
         display: grid;
         width: 350px;
-        height: 715px;
-        margin-left: 10px;
+        height: 739px;
+        margin-left:80px;
 
     }
 
     .s3-img {
         margin-left: 45px;
-        width: 250px;
-        height: 250px;
-        margin-left: 200px;
+        width: 280px;
+        height: 280px;
+        margin-left:0px;
         margin-top: 5px;
     }
 
     .s3-btn {
-        margin-left: -9px;
+        margin-left: 0px;
         margin-top: 30px;
     }
 
     .s3-descripation {
-        margin-left: -39px;
+        margin-left: 0px;
     }
 
     .s3-title {
-        margin-left: -39px;
+        margin-left: 0px;
     }
     .run-extra{
-        width: 250px;
-        height: 250px;
-        margin-left: -150px;
+        width: 280px;
+        height: 280px;
+        margin-left:35px;
     }
 }
 
@@ -612,12 +612,12 @@ body {
     }
 
     .s4heading {
-        margin-left: -150px;
+        margin-left:0px;
         font-size: 2rem;
     }
 
     .s4descri {
-        margin-left: -150px;
+        margin-left:0px;
     }
 
     .Section4maindiv {
@@ -625,28 +625,28 @@ body {
     }
 
     .s4images1 {
-        width: 183px;
+        width: 213px;
         height: 118px;
-        margin-left: -30px;
+        margin-left:20px;
     }
 
     .s4images21 {
         width: 213px;
         height: 118px;
-        margin-left: -38px;
+        margin-left:-10px;
 
     }
 
     .s4images41 {
-        width: 203px;
+        width: 213px;
         height: 118px;
-        margin-left: -30px;
+        margin-left:20px;
     }
 
     .s4images51 {
         width: 213px;
         height: 118px;
-        margin-left: -38px;
+        margin-left: -10px;
     }
 
     .s4images31,
@@ -812,7 +812,7 @@ td {
 
     .s5main-12 {
         display: inline-block;
-        width: 396px;
+        width: 495px;
         min-height:1220px;
         margin-top: 20px;
         margin-left: -40px;
@@ -833,13 +833,13 @@ td {
     .Height-cm {
         height: 60px;
         width: 182.5px;
-        margin-left: -100px;
+        margin-left:0px;
     }
 
     .Height-cm-1 {
         height: 60px;
         width: 382.5px;
-        margin-left: -100px;
+        margin-left: 0px;
     }
 
     .Height-cm-2 {
@@ -849,16 +849,16 @@ td {
     }
 
     .Bmi-title {
-        margin-left: -40px;
+        margin-left: 40px;
     }
 
     .s5-btns {
         margin-top: 20px;
-        margin-left: -50px;
+        margin-left: 40px;
     }
 
     .bmi-descris {
-        margin-left: -50px;
+        margin-left: 40px;
     }
 
     .s5titles-1 {
@@ -872,7 +872,7 @@ td {
     }
 
     .tr-1 {
-        margin-left: -30px;
+        margin-left: 0px;
         width: 100%;
     }
 }
@@ -918,8 +918,14 @@ td {
     }
 
     .extratable-1 {
-        width: 96%;
+        width: 310px;
         height: 240px;
+        margin-left: 80px;
+    }
+    .extraheading{
+        margin-left: -10px;
+    }
+    .extra-h3{
         margin-left: -10px;
     }
 
@@ -1033,7 +1039,7 @@ td {
         grid-template-columns: repeat(1, 2fr);
         width: 350px;
         min-height: 1450px;
-        margin-left:0px;
+        margin-left:70px;
     }
     .s6divs5,
     .s6divs4 {
@@ -1053,9 +1059,9 @@ td {
     }
 
     .s6images {
-        width: 80%;
+        width: 290px;
         height: 280px;
-        margin-left: 15px;
+        margin-left: -15px;
     }
 
     .s6divs1 {
@@ -1067,7 +1073,7 @@ td {
 
     .s6divs3,
     .s6divs2 {
-        width: 95%;
+        width: 290px;
         height: 280px;
         margin-left: 10px;
         margin-top: 20px;
@@ -1156,7 +1162,7 @@ td {
 
     }
     .footer-1{
-        width: 436px;
+        width: 534px;
     }
 
     .footertitle {
@@ -1168,7 +1174,7 @@ td {
     }
 
     .hr-1 {
-        width: 440px;
-        margin-left: 10px;
+        width: 530px;
+        margin-left:10px;
     }
 }
