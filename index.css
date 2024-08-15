@@ -84,7 +84,7 @@ body {
 
     .hambarger {
         display: block;
-        margin-left:280px;
+        margin-left:118px;
     }
 
     .navsubdiv-1 {
@@ -268,20 +268,20 @@ body {
 
     .section1-img {
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 10px;
         width: 349px;
         height: 500px;
 
     }
 
     .s1-img-subdiv1 {
-        margin-left: 180px;
+        margin-left: 120px;
 
 
     }
 
     .s1-img-subdiv2 {
-        margin-left: -50px;
+        margin-left: -30px;
     }
 
 }
@@ -446,7 +446,7 @@ body {
         display: grid;
         width: 350px;
         height: 739px;
-        margin-left:80px;
+        margin-left:-10px;
 
     }
 
@@ -612,12 +612,12 @@ body {
     }
 
     .s4heading {
-        margin-left:0px;
+        margin-left:-140px;
         font-size: 2rem;
     }
 
     .s4descri {
-        margin-left:0px;
+        margin-left:-140px;
     }
 
     .Section4maindiv {
@@ -627,26 +627,26 @@ body {
     .s4images1 {
         width: 213px;
         height: 118px;
-        margin-left:20px;
+        margin-left:-30px;
     }
 
     .s4images21 {
-        width: 213px;
+        width: 203px;
         height: 118px;
-        margin-left:-10px;
+        margin-left:-30px;
 
     }
 
     .s4images41 {
         width: 213px;
         height: 118px;
-        margin-left:20px;
+        margin-left:-30px;
     }
 
     .s4images51 {
-        width: 213px;
+        width: 203px;
         height: 118px;
-        margin-left: -10px;
+        margin-left: -30px;
     }
 
     .s4images31,
@@ -812,7 +812,7 @@ td {
 
     .s5main-12 {
         display: inline-block;
-        width: 495px;
+        width: 345px;
         min-height:1220px;
         margin-top: 20px;
         margin-left: -40px;
@@ -832,33 +832,33 @@ td {
 
     .Height-cm {
         height: 60px;
-        width: 182.5px;
-        margin-left:0px;
+        width: 152.5px;
+        margin-left:-50px;
     }
 
     .Height-cm-1 {
         height: 60px;
-        width: 382.5px;
-        margin-left: 0px;
+        width: 322.5px;
+        margin-left: -50px;
     }
 
     .Height-cm-2 {
         height: 60px;
-        width: 182.5px;
-        margin-left: -204px;
+        width: 152.5px;
+        margin-left: -174px;
     }
 
     .Bmi-title {
-        margin-left: 40px;
+        margin-left: -2px;
     }
 
     .s5-btns {
         margin-top: 20px;
-        margin-left: 40px;
+        margin-left:0px;
     }
 
     .bmi-descris {
-        margin-left: 40px;
+        margin-left: -2px;
     }
 
     .s5titles-1 {
@@ -872,8 +872,8 @@ td {
     }
 
     .tr-1 {
-        margin-left: 0px;
-        width: 100%;
+        margin-left: -19px;
+        width: 340px;
     }
 }
 
@@ -920,7 +920,7 @@ td {
     .extratable-1 {
         width: 310px;
         height: 240px;
-        margin-left: 80px;
+        margin-left:0px;
     }
     .extraheading{
         margin-left: -10px;
@@ -1037,9 +1037,9 @@ td {
     .s6-main {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
-        width: 350px;
+        width: 343px;
         min-height: 1450px;
-        margin-left:70px;
+        margin-left:0px;
     }
     .s6divs5,
     .s6divs4 {
@@ -1048,13 +1048,13 @@ td {
 
     .s6titles-1 {
         text-align: center;
-        margin-left: -100px;
+        margin-left:0px;
         font-size: 2rem;
     }
 
     .s6descri-1s {
         margin-top: 50px;
-        margin-left: -100px;
+        margin-left:0px;
         font-size: 1rem;
     }
 
@@ -1068,6 +1068,10 @@ td {
         width: 370px;
         height: 300px;
         margin-left: 10px;
+
+    }
+    .s-6div1{
+        margin-left:50px;
 
     }
 
@@ -1162,7 +1166,7 @@ td {
 
     }
     .footer-1{
-        width: 534px;
+        width: 385px;
     }
 
     .footertitle {
@@ -1174,7 +1178,7 @@ td {
     }
 
     .hr-1 {
-        width: 530px;
+        width: 400px;
         margin-left:10px;
     }
 }
