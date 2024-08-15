@@ -84,7 +84,7 @@ body {
 
     .hambarger {
         display: block;
-        margin-left: 140px;
+        margin-left: 180px;
     }
 
     .navsubdiv-1 {
@@ -812,7 +812,7 @@ td {
 
     .s5main-12 {
         display: inline-block;
-        width: 100%;
+        width: 396px;
         min-height:1220px;
         margin-top: 20px;
         margin-left: -40px;
@@ -1153,8 +1153,10 @@ td {
 
     .footer-main {
         display: inline;
-        width: 90%;
 
+    }
+    .footer-1{
+        width: 436px;
     }
 
     .footertitle {
@@ -1167,6 +1169,6 @@ td {
 
     .hr-1 {
         width: 440px;
-        margin-left: -20px;
+        margin-left: 10px;
     }
 }
